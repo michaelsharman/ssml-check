@@ -3,7 +3,7 @@
 //
 
 const convert = require('xml-js');
-const ssmlCheckCore = require('ssml-check-core');
+const ssmlCheckCore = require('@caspingus/ssml-check-core');
 
 function getAudioFiles(element) {
     let files = [];
